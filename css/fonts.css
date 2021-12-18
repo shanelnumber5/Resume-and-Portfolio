@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'FredokaOne-Regular';
+  src: url("../fonts/FredokaOne-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KaushanScript-Regular';
+  src: url("../fonts/KaushanScript-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GreatVibes-Regular';
+  src: url("../fonts/GreatVibes-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'FredokaOne-Regular', tahoma;
+  font-size: 1em;
+  font-weight: bold;
+  color: #F2F2F2;
+}
+
+h1 {
+  font-family: 'GreatVibes-Regular', tahoma;
+  font-size: 13em;
+  font-weight: bold;
+  color: #F2F2F2;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: 'FredokaOne-Regular', tahoma;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #4E49F2;
+}
+
+h3 {
+  font-family: 'KaushanScript-Regular', cursive;
+  font-size: 2em;
+  font-weight: normal;
+  color: #F2F2F2;
+}
+
+h4 {
+  font-family: 'FredokaOne-Regular', tahoma;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #4E49F2;
+}
