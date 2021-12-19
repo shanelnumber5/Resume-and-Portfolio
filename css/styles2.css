@@ -51,6 +51,12 @@
   color: #4E49F2;
 }
 
+@media only screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}
+
 /* Original */
 header {
   position: sticky;
@@ -128,7 +134,7 @@ body {
 .js {width: 10%; background-color: #4E49F2;}
 .reaper {width: 60%; background-color: #4E49F2;}
 .touchdesigner {width: 65%; background-color: #4E49F2;}
-.word {width: 95%; background-color: #4E49F2;}
+.word {width: 100%; background-color: #4E49F2;}
 .pp {width: 90%; background-color: #4E49F2;}
 .ex {width: 70%; background-color: #4E49F2;}
 .google {width: 90%; background-color: #4E49F2;}

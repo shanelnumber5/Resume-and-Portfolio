@@ -24,6 +24,7 @@
   font-size: 1em;
   font-weight: bold;
   color: #F2F2F2;
+  -webkit-text-stroke: .1px #4E49F2;
 }
 
 h1 {
@@ -32,6 +33,7 @@ h1 {
   font-weight: bold;
   color: #F2F2F2;
   line-height: 100%;
+    -webkit-text-stroke: .1px #4E49F2;
 }
 
 h2 {
@@ -39,6 +41,7 @@ h2 {
   font-size: 2em;
   text-transform: uppercase;
   color: #4E49F2;
+  -webkit-text-stroke: .1px ##F2F2F2;
 }
 
 h3 {
@@ -46,6 +49,7 @@ h3 {
   font-size: 2em;
   font-weight: normal;
   color: #F2F2F2;
+  -webkit-text-stroke: .1px #4E49F2;
 }
 
 h4 {
@@ -53,4 +57,5 @@ h4 {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #4E49F2;
+    -webkit-text-stroke: .1px ##F2F2F2;
 }

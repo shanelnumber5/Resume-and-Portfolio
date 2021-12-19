@@ -1,2 +1,3 @@
-# Resume-and-Portfolio
- Professional Work Experience for Shanel Locke
+# Shanel Locke's Professional Resume
+
+Learn a little bit about me!
