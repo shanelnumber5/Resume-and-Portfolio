@@ -19,8 +19,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Merriweather-Bold';
+  src: url("../fonts/Merriweather-Bold.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
-  font-family: 'FredokaOne-Regular', tahoma;
+  font-family: 'Merriweather-Bold', tahoma;
   font-size: 1em;
   font-weight: bold;
   color: #F2F2F2;
@@ -53,7 +61,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'FredokaOne-Regular', tahoma;
+  font-family: 'Merriweather-Bold', tahoma;
   font-size: 1.5em;
   text-transform: uppercase;
   color: #4E49F2;
