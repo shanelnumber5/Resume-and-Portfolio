@@ -43,7 +43,7 @@
     <div class="row">
       <div class="row">
         <div class="column">
-          <form action="/action_page.php">
+          <form class="contact-form" action="./php/contactform.php" method="post">
             <label for="fname" style="color:#4E49F2">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="First Name">
 
@@ -51,18 +51,19 @@
             <input type="text" id="lname" name="lastname" placeholder="Last Name">
         </div>
         <div class="column">
-          <label for="email" style="color:#4E49F2">Enter your email:</label>
+          <label for="email" style="color:#4E49F2">Enter Your Email:</label>
           <input type="text" id="email" name="email" placeholder="Email">
 
-          <label for="phone" style="color:#4E49F2">Enter your phone number:</label>
-          <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone Number">
+          <label for="phone" style="color:#4E49F2">Enter Your Phone Number:</label>
+          <input type="text" id="phone" name="phone" placeholder="Phone Number">
         </div>
       </div>
     </div>
-    <label for="subject" style="color:#4E49F2">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Tell me about your project.." style="height:200px"></textarea>
-    <form action="/action_page.php">
-      <input type="submit" value="Submit">
+    <label for="subject" style="color:#4E49F2">Subject:</label>
+    <input type="text" id="subject" name="subject" placeholder="Subject">
+    <label for="message" style="color:#4E49F2">Tell Me About Your Project:</label>
+    <textarea id="message" name="message" placeholder="Tell me about your project.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
     </form>
 
   </div>
